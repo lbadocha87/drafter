@@ -9,7 +9,7 @@ var currentState = new idleState();
 function setClient(client) {
   draftChannel = client.channels.cache.get(process.env.DRAFT_CHANNEL);
 
-  console.log(process.env.DRAFT_CHANNEL);
+
   guild = client.guilds.cache.get(process.env.GUILD); 
   clientMain = client;
   logToDraftChannel("I'm alive");
