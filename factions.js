@@ -38,7 +38,7 @@ const allFactions = [
   new Faction("nra", "pok"),
   new Faction("nomad", "pok"),
   new Faction("titans", "pok"),
-  new Faction("cabal", "pok")
+  new Faction("cabal", "pok"),
   new Faction("keleres", "pok")
 ]
 
